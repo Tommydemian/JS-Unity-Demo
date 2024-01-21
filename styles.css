@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+.button {
+  width: calc(50% - 0.5em);
+  padding-inline: 2em;
+  padding-block: 1em;
+  font-size: 1.1rem;
+  border-radius: 0.5em;
+}
+
+/* .button:hover {
+    background-color: #;
+  } */
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #cccccc;
+  width: 60%;
+  margin-block: 2em;
+  padding: 0.5em;
+}
+
+.user-input {
+  width: 100%;
+  padding-block: 1em;
+  padding-left: 1em;
+  font-size: 1rem;
+  border-width: 0.1em;
+  border-radius: 0.5em;
+}
